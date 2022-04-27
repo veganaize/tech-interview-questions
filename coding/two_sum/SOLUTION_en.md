@@ -79,7 +79,7 @@ class Solution:
 
 **complexity**
 
-- Time complexity: O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the lookup time to O(1), the overall time complexity is O(n)O(n).
+- Time complexity: O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the lookup time to O(1), the overall time complexity is O(2n).
 
 - Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores exactly n elements.
 
